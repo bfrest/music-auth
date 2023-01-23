@@ -75,7 +75,7 @@ app.get("/callback", (req, res) => {
         });
 
         // redirect to react app
-        res.redirect(`http://localhost:5173/?${queryParams}`);
+        res.redirect(`https://music-exploration.netlify.app/?${queryParams}`);
 
         // pass along tokens in query params
       } else {
